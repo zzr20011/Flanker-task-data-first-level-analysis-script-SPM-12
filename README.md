@@ -1,1 +1,1 @@
-# Flanker-task-data-first-level-analysis-script-SPM-12
+# Flanker task first level analysis script via SPM12
