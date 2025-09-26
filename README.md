@@ -1,10 +1,12 @@
-# Preproc & 1st-level Analysis Scripts for Flanker Task via SPM12
-This script provides a streamlined and highly readable pipeline for analyzing the Flanker dataset from OpenNeuro (https://openneuro.org/datasets/ds000102/versions/00001). It is designed to maximize reproducibility of the group-level results demonstrated in Andy’s Brain Book (https://andysbrainbook.readthedocs.io/en/latest/SPM/SPM_Overview.html), while adopting a different coding logic that emphasizes code clarity, automation, and ease of use.
-While Andy’s original scripts are educational and comprehensive, they could be difficult to read or adapt for new users and more flexible batch processing. This script addresses these limitations by:
+# Preproc & First-Level Analysis Scripts for Flanker Task via SPM12
 
-* Separating preprocessing and first-level modeling, allowing users to run each step independently or substitute alternative preprocessing tools as needed.
-* Focusing on code readability and maintainability: The logic is modular, the variables are clearly named, and the code is thoroughly commented. 
-* Facilitating reproducibility: By closely matching the analysis steps from Andy’s tutorials, this script allows users to replicate Andy’s results with minimal setup.
-* Batch-friendly structure: Easily extend or modify the script for multiple subjects or sessions.
+This repository offers a streamlined, highly readable pipeline for analyzing the Flanker dataset from OpenNeuro (https://openneuro.org/datasets/ds000102/versions/00001) using SPM12. The scripts prioritize reproducibility of group-level results as demonstrated in Andy’s Brain Book (https://andysbrainbook.readthedocs.io/en/latest/SPM/SPM_Overview.html), while adopting a distinct coding approach that emphasizes clarity, automation, and ease of use.
 
-Whether you are new to SPM scripting or looking to automate your analyses, this script aims to provide a robust, user-friendly solution that balances transparency and flexibility.
+While Andy’s original scripts are comprehensive and educational, new users may find them challenging to read or adapt for flexible batch processing. This pipeline addresses those limitations by:
+
+* Separating preprocessing and first-level modeling: Each step can be run independently, and users may substitute alternative preprocessing tools as needed.
+* Emphasizing code readability and maintainability: The pipeline is modular, variables are clearly named, and the code is thoroughly commented.
+* Facilitating reproducibility: By closely following Andy’s analysis steps, users can replicate published results with minimal setup.
+* Supporting batch processing: The structure is easily adaptable for multiple subjects or sessions in other experiments.
+
+Whether you are new to SPM scripting or seeking to automate your analyses, this pipeline is designed to offer a robust, transparent, and flexible solution.
