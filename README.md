@@ -1,4 +1,4 @@
-# Preprocessing & First-level Analysis Scripts for the Flanker Task Data via SPM12
+# Preproc & 1st-level Analysis Scripts for Flanker Task via SPM12
 This script provides a streamlined and highly readable pipeline for analyzing the Flanker dataset from OpenNeuro (https://openneuro.org/datasets/ds000102/versions/00001). It is designed to maximize reproducibility of the group-level results demonstrated in Andy’s Brain Book (https://andysbrainbook.readthedocs.io/en/latest/SPM/SPM_Overview.html), while adopting a different coding logic that emphasizes code clarity, automation, and ease of use.
 While Andy’s original scripts are educational and comprehensive, they could be difficult to read or adapt for new users and more flexible batch processing. This script addresses these limitations by:
 
